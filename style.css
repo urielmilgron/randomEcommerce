@@ -1,0 +1,73 @@
+
+/* .jost-<uniquifier> {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header, #navigation{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-color: rgb(222, 233, 233);
+    height: 11svh;
+    justify-content: space-around;
+    font-family: "Jost", sefir;
+    color: black;
+}
+#navigation{
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+#navItem{
+    font-family: "Jost", sefir;
+    color: black;
+}
+main{
+    background-color: rgb(105, 182, 182);
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    height: 79vh;
+    width: 100%;
+}
+#title{
+    background-color: rgb(113, 189, 110);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#title h1{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#product{
+    background-color: saddlebrown;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+}
+#productos{
+    background-color: aqua;
+    width: 90vh;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
